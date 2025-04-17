@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Norgains - Trening og Supplementer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-gray-900 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center gap-2">
+        <img src="logo.jpeg" alt="Norgains Logo" class="h-8 w-8 rounded-full" />
+        <h1 class="text-2xl font-bold">Norgains</h1>
+      </div>
+      <nav>
+        <ul class="flex gap-4">
+          <li><a href="#" class="hover:text-yellow-400">Hjem</a></li>
+          <li><a href="#produkter" class="hover:text-yellow-400">Produkter</a></li>
+          <li><a href="#" class="hover:text-yellow-400">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+<section class="bg-gradient-to-r from-yellow-100 via-white to-yellow-50 py-10">
+  <div class="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-6 px-4">
+    
+    <!-- Tekst -->
+    <div class="md:w-1/2 text-center md:text-left">
+      <h2 class="text-3xl font-extrabold mb-2">Gains med stil.</h2>
+      <p class="text-base text-gray-700 mb-4">
+        Hos <span class="font-semibold text-gray-900">Norgains</span> finner du smakfulle og effektive kosttilskudd – for deg som vil ha resultater uten kompromiss.
+      </p>
+      <a href="#produkter" class="bg-yellow-500 text-white px-5 py-2.5 rounded-full hover:bg-yellow-600 transition text-sm font-medium">Se produkter</a>
+    </div>
+
+    <!-- Bilde -->
+    <div class="md:w-1/2 flex justify-center">
+      <img src="logo.jpeg" alt="Hero produkt" class="max-w-[300px] w-full h-auto rounded-xl shadow-md object-contain" />
+    </div>
+  </div>
+</section>
+
+
+
+ <!-- Produkter -->
+ <section id="produkter" class="py-16 bg-gray-50">
+  <div class="container mx-auto text-center mb-12">
+    <h3 class="text-3xl font-semibold">Populære produkter</h3>
+    <p class="text-gray-600 mt-2">Proteinbarer, shakes og mer.</p>
+  </div>
+  <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+
+    <a href="proteinbar.html" class="bg-white shadow rounded-lg p-6 hover:shadow-lg transition">
+      <img src="proteinbar.jpeg" alt="Proteinbar" class="mb-4 rounded h-80 w-full object-cover">
+      <h4 class="text-xl font-bold mb-2">Proteinbar - Sjokolade</h4>
+      <p class="text-gray-700 mb-4">20g protein. Smakfull og sunn.</p>
+      <span class="bg-gray-900 text-white px-4 py-2 rounded inline-block">Se mer</span>
+    </a>
+
+    <a href="kreatin.html" class="bg-white shadow rounded-lg p-6 hover:shadow-lg transition">
+      <img src="kreatin.jpeg" alt="Kreatin" class="mb-4 rounded h-80 w-full object-cover">
+      <h4 class="text-xl font-bold mb-2">Kreatin Monohydrat</h4>
+      <p class="text-gray-700 mb-4">For styrke og volum – uten unødvendig bulk.</p>
+      <span class="bg-gray-900 text-white px-4 py-2 rounded inline-block">Se mer</span>
+    </a>
+
+    <a href="proteinpulver-vanilla.html" class="bg-white shadow rounded-lg p-6 hover:shadow-lg transition">
+      <img src="proteinpulver-vanilla.jpeg" alt="Proteinpulver" class="mb-4 rounded h-80 w-full object-cover">
+      <h4 class="text-xl font-bold mb-2">Proteinpiulver</h4>
+      <p class="text-gray-700 mb-4">For ekstra gains.</p>
+      <span class="bg-gray-900 text-white px-4 py-2 rounded inline-block">Se mer</span>
+    </a>
+
+    <a href="proteinpannekaker.html" class="bg-white shadow rounded-lg p-6 hover:shadow-lg transition">
+      <img src="proteinpannekaker.jpeg" alt="Proteinpulver" class="mb-4 rounded h-80 w-full object-cover">
+      <h4 class="text-xl font-bold mb-2">Proteinpannekaker</h4>
+      <p class="text-gray-700 mb-4">For ekstra gains.</p>
+      <span class="bg-gray-900 text-white px-4 py-2 rounded inline-block">Se mer</span>
+    </a>
+
+    <a href="proteinchips.html" class="bg-white shadow rounded-lg p-6 hover:shadow-lg transition">
+      <img src="proteinchips.jpeg" alt="Proteinpulver" class="mb-4 rounded h-80 w-full object-cover">
+      <h4 class="text-xl font-bold mb-2">Proteinchips</h4>
+      <p class="text-gray-700 mb-4">For ekstra gains.</p>
+      <span class="bg-gray-900 text-white px-4 py-2 rounded inline-block">Se mer</span>
+    </a>
+
+    <a href="shaker.html" class="bg-white shadow rounded-lg p-6 hover:shadow-lg transition">
+      <img src="shaker.jpeg" alt="Shaker" class="mb-4 rounded h-80 w-full object-cover">
+      <h4 class="text-xl font-bold mb-2">Shaker</h4>
+      <p class="text-gray-700 mb-4">Enkel og god shaker til proteinshakes.</p>
+      <span class="bg-gray-900 text-white px-4 py-2 rounded inline-block">Se mer</span>
+    </a>
+
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 Norbulk. Alle rettigheter reservert.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
